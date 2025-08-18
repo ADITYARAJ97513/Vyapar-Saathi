@@ -27,7 +27,7 @@ import UdhaarPage from "./pages/UdhaarPage";
 import ProductsPage from "./pages/ProductsPage";
 import LoginPage from "./pages/LoginPage";
 import RegisterPage from "./pages/RegisterPage";
-import Footer from "./components/footer";
+import Footer from "./components/Footer";
 import ResetPasswordPage from "./pages/ResetPasswordPage";
 import ForgotPasswordPage from "./pages/ForgotPasswordPage";
 
