@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/ADITYARAJ97513/Vyapaar-Saathi/main/assets/vyapar-saathi-banner.png" alt="Vyapar Saathi Banner" width="800"/>
-  <br/>
   <h1 align="center">Vyapar Saathi</h1>
   <p align="center">
     <strong>Your Smart Business Companion 📈</strong>
@@ -48,28 +46,13 @@ This application is packed with features to empower small business owners:
 
 ## 📸 Screenshots
 
-<details>
-<summary><strong>Click to view application screenshots</strong></summary>
-<br>
-<table>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/ADITYARAJ97513/Vyapaar-Saathi/main/assets/screenshot-login.png" alt="Login Page"></td>
-    <td><img src="https://raw.githubusercontent.com/ADITYARAJ97513/Vyapaar-Saathi/main/assets/screenshot-dashboard.png" alt="Dashboard Page"></td>
-  </tr>
-  <tr>
-    <td align="center"><em>Login Page</em></td>
-    <td align="center"><em>Dashboard</em></td>
-  </tr>
-  <tr>
-    <td><img src="https://raw.githubusercontent.com/ADITYARAJ97513/Vyapaar-Saathi/main/assets/screenshot-billing.png" alt="Billing Page"></td>
-    <td><img src="https://raw.githubusercontent.com/ADITYARAJ97513/Vyapaar-Saathi/main/assets/screenshot-udhaar.png" alt="Udhaar Page"></td>
-  </tr>
-   <tr>
-    <td align="center"><em>Billing / POS</em></td>
-    <td align="center"><em>Udhaar Management</em></td>
-  </tr>
-</table>
-</details>
+<img width="1365" height="622" alt="Screenshot 2025-08-18 225636" src="https://github.com/user-attachments/assets/b6356be8-9f7f-4252-927e-e61234233f5f" />
+<img width="1348" height="627" alt="Screenshot 2025-08-18 225838" src="https://github.com/user-attachments/assets/f0032648-0ec6-4ab8-9e45-1ad46618c6a3" />
+<img width="1347" height="628" alt="Screenshot 2025-08-18 225933" src="https://github.com/user-attachments/assets/0f47ed93-4d51-4ed2-aa29-dd4f1c5b4d48" />
+<img width="1348" height="622" alt="Screenshot 2025-08-18 230107" src="https://github.com/user-attachments/assets/de5fb1d4-07ae-4892-b88f-f6e3faf9ab79" />
+
+
+<img width="1346" height="633" alt="Screenshot 2025-08-18 230020" src="https://github.com/user-attachments/assets/96eed1ad-8ac3-4464-93fd-bb77f553d9c6" />
 
 ---
 
