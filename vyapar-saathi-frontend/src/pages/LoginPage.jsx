@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { authAPI } from "../services/api";
 import toast from "react-hot-toast";
-import { Briefcase } from "lucide-react";
+import { Briefcase, Copy } from "lucide-react";
 
 const LoginPage = ({ onLogin }) => {
   const [email, setEmail] = useState("");
@@ -20,6 +20,12 @@ const LoginPage = ({ onLogin }) => {
       toast.error("Invalid credentials. Please try again.");
       console.error(error);
     }
+  };
+
+  const copyDemoCredentials = () => {
+    setEmail("abc@gmail.com");
+    setPassword("Password");
+    toast.success("Demo credentials filled!");
   };
 
   return (
@@ -53,6 +59,22 @@ const LoginPage = ({ onLogin }) => {
           <p className="text-gray-500 text-center mb-8">
             Please login to manage your business
           </p>
+          <div className="mb-6 p-4 bg-blue-50 border border-blue-200 rounded-lg">
+            <div className="flex justify-between items-center mb-2">
+              <h3 className="text-sm font-medium text-blue-800">Demo Credentials</h3>
+              <button
+                onClick={copyDemoCredentials}
+                className="flex items-center text-xs text-blue-600 hover:text-blue-800"
+              >
+                <Copy className="w-3 h-3 mr-1" />
+                Fill Demo Login
+              </button>
+            </div>
+            <div className="text-sm text-blue-700">
+              <p>Email: abc@gmail.com</p>
+              <p>Password: Password</p>
+            </div>
+          </div>
 
           <form onSubmit={handleSubmit} className="space-y-5">
             <div>
@@ -105,7 +127,7 @@ const LoginPage = ({ onLogin }) => {
           </div>
 
           <p className="text-center text-sm text-gray-600">
-            Don’t have an account?{" "}
+            Don't have an account?{" "}
             <Link
               to="/register"
               className="font-semibold text-indigo-600 hover:text-indigo-800 transition"
